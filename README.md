@@ -1,6 +1,6 @@
 # Ukrainian-Literature-Author-Map
 
-An Obsidian vault that maps Ukrainian writers through **documented personal connections**: mentors and students, friends, co-editors, correspondents, family, dedications, translations, public disputes and influences the authors acknowledged themselves.
+An Obsidian vault that maps Ukrainian writers through **documented personal connections**: mentors and students, friends, co-editors, correspondents, family, dedications, translations, public disputes, influences the authors acknowledged themselves, and smaller private occasions (a home literary evening, a night of drinking, a trip together).
 
 - One note per author in `Автори/`, written in Ukrainian.
 - Each graph link connects exactly two people and cites a source that contains the evidence.

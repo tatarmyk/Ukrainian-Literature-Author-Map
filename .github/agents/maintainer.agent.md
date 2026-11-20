@@ -24,7 +24,7 @@ Run these on every changed note in `Автори/` (use `rtk git status` / `rtk 
 2. **Inverse line** — for each `тип:: [[B]]` on note A where `Автори/B.md` exists, B has the inverse key pointing to A (see the table in `copilot-instructions.md`). Add missing inverse lines, copying the evidence and source.
 3. **Allowed keys only** — no relation keys outside the table.
 4. **File name and metadata** — file name rules, all frontmatter keys present, at least one `епоха/…` tag, tags from the allowed list, `статус` is `чернетка` or `перевірено`, `оновлено` set.
-5. **Sections** — intro, `## Біографія`, `## Зв'язки`, `## Твори`, `## Джерела` in this order; biography 150–300 words.
+5. **Sections** — intro, `## Біографія`, `## Зв'язки`, `## Твори`, `## Джерела` in this order; biography 200–400 words, with anecdotes/quotes attributed and covered by `## Джерела`.
 6. **Queue** — every linked author without a note is listed in `_service/черга.md`; every author with a note is ticked `[x]`.
 7. **Copyright** — no copied work texts, no stored images.
 

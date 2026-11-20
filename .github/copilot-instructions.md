@@ -37,10 +37,17 @@ tags: [епоха/розстріляне-відродження, рух/неок
 
 ## Note sections (in this order)
 1. Intro: 1–2 sentences (who, years, why notable). No heading.
-2. `## Біографія` — 150–300 words, own words, no copied sentences.
+2. `## Біографія` — 200–400 words, own words, no copied sentences. Keep the dry facts short and make the person come alive (see below).
 3. `## Зв'язки` — relation lines (see below).
 4. `## Твори` — links to works.
 5. `## Джерела` — every source used, as `- [Назва](URL) — переглянуто YYYY-MM-DD`.
+
+## Biography style
+The note should feel personal, not like an encyclopedia entry.
+- Facts (dates, studies, jobs, arrest) in compact sentences; give the space to character.
+- Include 2–4 vivid details: anecdotes, habits, bold character traits, nicknames, how they looked or spoke, famous gestures or scandals.
+- Up to 2 short quotes **by other people** about the author (a contemporary, friend, critic): ≤ 2 sentences each, in «…», with who said it, e.g. `Юрій Шерех називав його «…»`. The author's own words are allowed the same way.
+- Every anecdote and quote must come from a source listed in `## Джерела`. Mark legends and single-memoir stories as such («за спогадами …», «за переказом»). Never invent or embellish.
 
 ## Link rules (`## Зв'язки`)
 A link is added **only** for a documented personal connection between two people. One line per connection, as a Dataview inline field:
@@ -63,9 +70,11 @@ The key names the relation **as seen from this note**. Every link is written on 
 | `присвята:: [[B]]` | A dedicated a work to B | `присвята-від:: [[A]]` |
 | `переклад:: [[B]]` | A translated B's work | `переклад-від:: [[A]]` |
 | `полеміка:: [[B]]` | public dispute | `полеміка:: [[A]]` |
+| `зустріч:: [[B]]` | documented private occasion together: a home literary evening, a feast or drinking, a trip or holiday, shared lodging, a visit | `зустріч:: [[A]]` |
 | `вплив:: [[B]]` | B influenced A — **only if A acknowledged it** | `вплив-на:: [[A]]` |
 
-- **Not** a reason for a link: same group, same city, same era, same journal issue, same arrest/trial without a personal tie, being on the same side of a debate. Those go into tags or the biography text.
+- **Not** a reason for a link: same group, same city, same era, same journal issue, same arrest/trial without a personal tie, being on the same side of a debate, attending the same public event (congress, official meeting, mass rally). Those go into tags or the biography text.
+- `зустріч` is for small, private, named occasions where both people were present (who, where, roughly when). Put the anecdote in the evidence, e.g. `— випивали разом у пивниці «…» після вечора в Харкові, 1926`. Use one line per occasion; if the source shows a lasting tie, prefer `друг`.
 - Several lines for the same pair are fine when they are different facts (e.g. mutual dedications: `присвята` and `присвята-від` on both notes).
 - `вплив` needs the author's own words (letter, memoir, interview) cited by the source; an encyclopedia saying "influenced by" is not enough.
 - `наставник`/`учень` needs the source to describe teaching, a seminar or explicit mentorship ("учень", "вчитель"); mere support or promotion is not enough.
@@ -88,6 +97,8 @@ Source preference: uk.wikisource (public domain) → ukrlib.com.ua → izbornyk.
 3. ЕСУ — Енциклопедія сучасної України (esu.com.ua)
 4. Encyclopedia of Ukraine (encyclopediaofukraine.com)
 
+Memoirs, diaries and letters of contemporaries (e.g. on litopys.org.ua, diasporiana.org.ua, chtyvo.org.ua) and well-referenced articles by literary historians are the main sources for anecdotes, quotes and `зустріч` links; cite the exact page.
+
 Cross-check dates and relations between at least two sources. ЕСУ is published only for letters А–О; for other names cross-check with Encyclopedia of Ukraine. Other reputable sources (academic publications, museum sites) are allowed as evidence; mention them as such in the report.
 
 ## Queue (`_service/черга.md`)
@@ -100,7 +111,7 @@ Plain names, no `[[links]]` (keeps the queue out of the graph):
 Tick `[x]` when the note exists. Add newly mentioned authors under `## Згадані`. If a linked author is already in the queue, append the source note to that line (`— згадано в: Микола Зеров, Павло Тичина`). `згадано в` means "this note links to them and is waiting for the inverse line".
 
 ## Copyright
-Never copy texts of works or paragraphs of biographies. Link instead. No stored portraits or images.
+Never copy texts of works or paragraphs of biographies. Link instead. Short attributed quotes about a person (≤ 2 sentences, max 2 per note) are allowed. No stored portraits or images.
 
 ## Git
 Shell commands are prefixed with `rtk` (e.g. `rtk git status`). Never force-push, rewrite history or delete branches.
