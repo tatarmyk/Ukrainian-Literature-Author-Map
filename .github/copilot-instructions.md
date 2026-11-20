@@ -14,7 +14,7 @@ Notes are written in Ukrainian. Never copy text from sources: biographies are wr
 ```yaml
 ---
 type: автор
-aliases: [Микола Костьович Зеров, Зеров]   # full name, real name, pseudonyms
+aliases: [Микола Костянтинович Зеров, Зеров]   # full name, real name, pseudonyms
 народження: 1890-04-26                     # ISO date; YYYY or YYYY-MM if unknown
 смерть: 1937-11-03
 місця: [Зіньків, Київ, Сандармох]           # plain text, no [[links]]
