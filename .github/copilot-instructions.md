@@ -24,7 +24,9 @@ tags: [епоха/розстріляне-відродження, рух/неок
 оновлено: 2026-11-20                       # date of last edit
 ---
 ```
-- Every note needs at least one `епоха/…` tag; add `рух/…` tags for documented membership.
+- Every note needs at least one `епоха/…` tag; add `рух/…` tags for documented membership. `епоха/` marks the generation, not the fate (survivors like Рильський keep `розстріляне-відродження`).
+- `місця`: birth place, main places of study/work, place of death — at most ~6.
+- Dates: if sources conflict, use the Wikidata (Gregorian) date and report the conflict.
 - `статус: перевірено` is set only after the sources of every link were opened and confirmed (Maintainer spot-check or the user). Scraper always writes `чернетка`.
 - Template: `_service/шаблони/Автор.md`.
 
@@ -55,7 +57,7 @@ The key names the relation **as seen from this note**. Every link is written on 
 | `наставник:: [[B]]` | B was A's mentor/teacher | `учень:: [[A]]` |
 | `учень:: [[B]]` | B was A's student | `наставник:: [[A]]` |
 | `друг:: [[B]]` | friends | `друг:: [[A]]` |
-| `співпраця:: [[B]]` | co-editing, joint almanac, co-authorship | `співпраця:: [[A]]` |
+| `співпраця:: [[B]]` | co-editing, joint almanac, co-authorship, director staging the other's play in documented joint work | `співпраця:: [[A]]` |
 | `листування:: [[B]]` | documented correspondence | `листування:: [[A]]` |
 | `родина:: [[B]]` | family (state the relation in the evidence) | `родина:: [[A]]` |
 | `присвята:: [[B]]` | A dedicated a work to B | `присвята-від:: [[A]]` |
@@ -63,7 +65,12 @@ The key names the relation **as seen from this note**. Every link is written on 
 | `полеміка:: [[B]]` | public dispute | `полеміка:: [[A]]` |
 | `вплив:: [[B]]` | B influenced A — **only if A acknowledged it** | `вплив-на:: [[A]]` |
 
-- **Not** a reason for a link: same group, same city, same era, same journal issue, same arrest/trial without a personal tie. Those go into tags or the biography text.
+- **Not** a reason for a link: same group, same city, same era, same journal issue, same arrest/trial without a personal tie, being on the same side of a debate. Those go into tags or the biography text.
+- Several lines for the same pair are fine when they are different facts (e.g. mutual dedications: `присвята` and `присвята-від` on both notes).
+- `вплив` needs the author's own words (letter, memoir, interview) cited by the source; an encyclopedia saying "influenced by" is not enough.
+- `наставник`/`учень` needs the source to describe teaching, a seminar or explicit mentorship ("учень", "вчитель"); mere support or promotion is not enough.
+- `друг` needs the source to call them friends ("друг", "приятель", "товариш" in the sense of friend), not just classmates or colleagues.
+- Link only people of Ukrainian literature: writers, poets, translators, literary critics/scholars, and theatre directors who worked with writers. No composers, painters, non-literary scholars or foreign authors — mention them in the biography instead.
 - If the other author has no note yet, still write the link (it shows as a grey node) and add the name to the queue. The inverse line is added when that note is created.
 - Before creating a note, search `Автори/` for existing links to this author and add every missing inverse line.
 - When unsure, do not add the link — report it as a doubt.
@@ -73,7 +80,7 @@ One line per work, links only:
 ```
 - *Камена* (1924) — [Вікіджерела](URL) · [УкрЛіб](URL)
 ```
-Source preference: uk.wikisource (public domain) → ukrlib.com.ua → izbornyk.org.ua → chtyvo.org.ua. No notes per work (exception for later: a work that itself creates a connection).
+Source preference: uk.wikisource (public domain) → ukrlib.com.ua → izbornyk.org.ua → chtyvo.org.ua → other public digital libraries (e.g. elib.nlu.org.ua, diasporiana.org.ua). Only URLs that were opened and show the work. No notes per work (exception for later: a work that itself creates a connection).
 
 ## Source ranking
 1. Wikidata (IDs, dates, structured relations) — CC0
@@ -81,7 +88,7 @@ Source preference: uk.wikisource (public domain) → ukrlib.com.ua → izbornyk.
 3. ЕСУ — Енциклопедія сучасної України (esu.com.ua)
 4. Encyclopedia of Ukraine (encyclopediaofukraine.com)
 
-Cross-check dates and relations between at least two sources. Other reputable sources (academic publications, museum sites) are allowed as evidence; mention them as such in the report.
+Cross-check dates and relations between at least two sources. ЕСУ is published only for letters А–О; for other names cross-check with Encyclopedia of Ukraine. Other reputable sources (academic publications, museum sites) are allowed as evidence; mention them as such in the report.
 
 ## Queue (`_service/черга.md`)
 Plain names, no `[[links]]` (keeps the queue out of the graph):
@@ -90,7 +97,7 @@ Plain names, no `[[links]]` (keeps the queue out of the graph):
 - [ ] Ім'я Прізвище — згадано в: Микола Зеров
 - [x] Максим Рильський
 ```
-Tick `[x]` when the note exists. Add newly mentioned authors under `## Згадані`.
+Tick `[x]` when the note exists. Add newly mentioned authors under `## Згадані`. If a linked author is already in the queue, append the source note to that line (`— згадано в: Микола Зеров, Павло Тичина`). `згадано в` means "this note links to them and is waiting for the inverse line".
 
 ## Copyright
 Never copy texts of works or paragraphs of biographies. Link instead. No stored portraits or images.
