@@ -70,11 +70,11 @@ The key names the relation **as seen from this note**. Every link is written on 
 | `присвята:: [[B]]` | A dedicated a work to B | `присвята-від:: [[A]]` |
 | `переклад:: [[B]]` | A translated B's work | `переклад-від:: [[A]]` |
 | `полеміка:: [[B]]` | public dispute | `полеміка:: [[A]]` |
-| `зустріч:: [[B]]` | documented private occasion together: a home literary evening, a feast or drinking, a trip or holiday, shared lodging, a visit | `зустріч:: [[A]]` |
+| `зустріч:: [[B]]` | documented private time together, once or recurring: home literary evenings, feasts or drinking, hunting, trips or holidays, shared lodging, visits | `зустріч:: [[A]]` |
 | `вплив:: [[B]]` | B influenced A — **only if A acknowledged it** | `вплив-на:: [[A]]` |
 
 - **Not** a reason for a link: same group, same city, same era, same journal issue, same arrest/trial without a personal tie, being on the same side of a debate, attending the same public event (congress, official meeting, mass rally). Those go into tags or the biography text.
-- `зустріч` is for small, private, named occasions where both people were present (who, where, roughly when). Put the anecdote in the evidence, e.g. `— випивали разом у пивниці «…» після вечора в Харкові, 1926`. Use one line per occasion; if the source shows a lasting tie, prefer `друг`.
+- `зустріч` is for private, informal time where a source puts both people together. Many records from those years were destroyed, so an exact date or place is **not** required: recurring gatherings («суботи» at someone's home, regular hunting trips) or an approximate setting («в харківські роки») are fine. Give whatever detail the source has and put the anecdote in the evidence, e.g. `— їздили разом на полювання, Хвильовий подарував Кулішеві сетера Джоя`. One line per distinct occasion or habit; a `друг` line for the same pair does not replace it.
 - Several lines for the same pair are fine when they are different facts (e.g. mutual dedications: `присвята` and `присвята-від` on both notes).
 - `вплив` needs the author's own words (letter, memoir, interview) cited by the source; an encyclopedia saying "influenced by" is not enough.
 - `наставник`/`учень` needs the source to describe teaching, a seminar or explicit mentorship ("учень", "вчитель"); mere support or promotion is not enough.

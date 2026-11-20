@@ -27,7 +27,7 @@ Take 1–5 authors per run: the ones the user names, otherwise the first unticke
 3. **ЕСУ / Encyclopedia of Ukraine** — cross-check dates and relations. Note any conflict between sources.
 4. **Memoirs and the human side** — search memoirs, diaries, letters and articles about the author (contemporaries' recollections, literary historians' essays). Look for:
    - anecdotes, habits, nicknames, bold traits, scandals, how others saw them — and short quotes by contemporaries about them;
-   - **small personal encounters** with other writers: home literary evenings, drinking or feasts together, trips, holidays, shared flats, visits, nights in the same cell or barrack with a recorded conversation. These become `зустріч` (or `друг` if the tie was lasting).
+   - **small personal encounters** with other writers, single or recurring, even without an exact date: home literary evenings, drinking or feasts together, hunting, trips, holidays, shared flats, visits, nights in the same cell or barrack with a recorded conversation. These become `зустріч` (add `друг` too if a source calls them friends).
    Search both directions: memoirs **by** this author about others and memoirs **by others** that mention this author.
 5. **Works** — find links for the main works (uk.wikisource → ukrlib → izbornyk → chtyvo → other public digital libraries). Links only.
 6. **Connections** — for every documented personal connection, from formal (mentor, co-editor) to subtle (an evening together), write a relation line with evidence and source.
